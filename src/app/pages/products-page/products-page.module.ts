@@ -1,20 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
+import { ProductsPageRoutingModule } from './products-page-routing.module';
+import { ProductsPageComponent } from './products-page.component';
+import { MatTabsModule } from '@angular/material/tabs';
 import { ShareComponentsModule } from 'src/app/components/share-components/share-components.module';
-import {MatTabsModule} from '@angular/material/tabs';
+
 
 @NgModule({
   declarations: [
-    HomeComponent,
+    ProductsPageComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule,
+    ProductsPageRoutingModule,
     ShareComponentsModule,
     MatTabsModule
   ]
 })
-export class HomeModule { }
+export class ProductsPageModule { }

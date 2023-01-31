@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as navBarData from '../../../assets/data/navbarData.json'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-navbar',
@@ -10,8 +11,16 @@ import * as navBarData from '../../../assets/data/navbarData.json'
 export class MainNavbarComponent {
   navData: any[] = navBarData;
 
+  constructor(private router: Router){
+
+  }
+
   ngOnInit(){
 
+  }
+
+  navigateTo(link: any){
+    this.router.navigate([link])
   }
 
 }

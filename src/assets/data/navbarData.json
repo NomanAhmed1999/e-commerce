@@ -10,7 +10,7 @@
             },
             {
                 "navLinkName": "Products",
-                "nameRoute": "/products",
+                "nameRoute": "products",
                 "hasIcon": false,
                 "iconName": ""
             },

@@ -6,6 +6,9 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule)
+  },  {
+    path: 'products',
+    loadChildren: () => import('./pages/products-page/products-page.module').then(m => m.ProductsPageModule)
   },
   {
     path: '**',
