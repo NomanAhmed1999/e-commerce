@@ -1,0 +1,12 @@
+<div class="product-main-container">
+    <div *ngFor="let product of productData[0].data" class="product-container">
+        <div class="product-img">
+            <img [src]="product.productImg" />
+            <button>Shop Now</button>
+        </div>
+        <div class="description-box">
+            <p>{{product.productName}}r</p>
+            <p>{{product.productPrice}}</p>
+        </div>
+    </div>
+</div>

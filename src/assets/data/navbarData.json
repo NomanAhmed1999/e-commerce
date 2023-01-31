@@ -1,0 +1,37 @@
+[
+    {
+        "siteName": "ART WORLD",
+        "data": [
+            {
+                "navLinkName": "Home",
+                "nameRoute": "/home",
+                "hasIcon": false,
+                "iconName": ""
+            },
+            {
+                "navLinkName": "Products",
+                "nameRoute": "/products",
+                "hasIcon": false,
+                "iconName": ""
+            },
+            {
+                "navLinkName": "play",
+                "nameRoute": "/news",
+                "hasIcon": false,
+                "iconName": ""
+            },
+            {
+                "navLinkName": "",
+                "nameRoute": "/news",
+                "hasIcon": true,
+                "iconName": "fa fa-newspaper-o"
+            },
+            {
+                "navLinkName": "",
+                "nameRoute": "/cart",
+                "hasIcon": true,
+                "iconName": "fa fa-shopping-cart"
+            }
+        ]
+    }
+]

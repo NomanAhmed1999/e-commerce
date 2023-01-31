@@ -1,0 +1,23 @@
+<div class="carousel-container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div
+        *ngFor="let slide of sliders[0].data;let i=index; first as isFirst"
+        class="carousel-item" [ngClass]="isFirst ? 'carousel-item active' : 'carousel-item'">
+        <img [src]="slide.bannerImg" class="d-block carosel-banner-img" alt="...">
+        <p class="slider-item-description">{{slide.bannerDescription}}</p>
+        <button class="shop-now-btn">Shop Now</button>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>

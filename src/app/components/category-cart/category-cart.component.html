@@ -1,0 +1,12 @@
+<div class="category-container">
+    <div *ngFor="let category of categoryData[0].data" class="category-cart-container">
+        <div class="name-des">
+            <h2>{{category.categoryName}}</h2>
+            <p>{{category.categoryDescription}}</p>
+            <button class="shop-now-btn">Shop&nbsp;Now</button>
+        </div>
+        <div class="img">
+            <img [src]="category.categoryImg" />
+        </div>
+    </div>
+</div>

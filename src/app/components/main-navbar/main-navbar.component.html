@@ -1,0 +1,13 @@
+<header class="header">
+    <div class="identity">
+      <h1>{{navData[0].siteName}}</h1>
+    </div>  
+    <nav class="navigation">
+      <ul class="nav">
+        <li *ngFor="let nav of navData[0].data">
+            {{nav.navLinkName ? nav.navLinkName : ''}}
+            <i *ngIf="nav.hasIcon" [class]="nav.iconName ? nav.iconName : ''"></i>
+        </li>
+      </ul>
+    </nav>
+  </header>

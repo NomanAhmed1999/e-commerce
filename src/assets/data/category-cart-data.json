@@ -1,0 +1,21 @@
+[
+    {
+        "data": [
+            {
+                "categoryName": "MEN",
+                "categoryDescription": "Spring 2023",
+                "categoryImg": "https://o.dlf.pt/dfpng/smallpng/542-5420229_avengers-iron-man-png-download-captain-america-shield.png"
+            },
+            {
+                "categoryName": "WOMEN",
+                "categoryDescription": "Spring 2023",
+                "categoryImg": "https://o.dlf.pt/dfpng/smallpng/542-5420229_avengers-iron-man-png-download-captain-america-shield.png"
+            },
+            {
+                "categoryName": "CHILD",
+                "categoryDescription": "Spring 2023",
+                "categoryImg": "https://o.dlf.pt/dfpng/smallpng/542-5420229_avengers-iron-man-png-download-captain-america-shield.png"
+            }
+        ]
+    }
+]
