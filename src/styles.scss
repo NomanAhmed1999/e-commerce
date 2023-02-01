@@ -38,6 +38,7 @@ $e-commerce-theme: mat.define-light-theme((
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 1s;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

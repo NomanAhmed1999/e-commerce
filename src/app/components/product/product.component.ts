@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import * as ProductData from '../../../assets/data/product-data.json'
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-product',
@@ -7,5 +6,15 @@ import * as ProductData from '../../../assets/data/product-data.json'
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent {
-  productData: any[] = ProductData;
+  @Input() data: any;
+  test: any;
+
+
+  ngAfterViewInit(){
+    console.log('ngViewAfterInit', this.data);
+  }
+
+  testing(){
+    
+  }
 }

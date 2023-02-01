@@ -1,4 +1,4 @@
 <app-main-navbar *ngIf="enableComponent == 'app-nav'"></app-main-navbar>
 <app-slider *ngIf="enableComponent == 'app-slider'"></app-slider>
 <app-category-cart *ngIf="enableComponent == 'category-component'"></app-category-cart>
-<app-product *ngIf="enableComponent == 'product-component'"></app-product>
+<app-product [data]="data" *ngIf="enableComponent == 'product-component'"></app-product>

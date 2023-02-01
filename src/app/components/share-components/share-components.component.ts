@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class ShareComponentsComponent {
   @Input() enableComponent: String = '';
+  @Input() data: any;
 
 
 
