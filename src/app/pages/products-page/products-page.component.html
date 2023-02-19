@@ -2,7 +2,8 @@
 
 
 <mat-tab-group (selectedTabChange)="changeTab($event)">
-    <mat-tab *ngFor="let cetegory of productCategories" [label]="cetegory">
-        <app-share-components [data]="productList" enableComponent="product-component"></app-share-components>
+    <mat-tab *ngFor="let cetegory of productCategories; let i = index" [label]="cetegory">
+        <app-share-components [data]="filteredproductList.length > 0 ? filteredproductList : productList" enableComponent="product-component"></app-share-components>
     </mat-tab>
 </mat-tab-group>
+<app-share-components enableComponent="footer-component"></app-share-components>

@@ -2,19 +2,34 @@
     {
         "data": [
             {
-                "categoryName": "MEN",
+                "categoryName": "HEALTH & BEAUTY",
                 "categoryDescription": "Spring 2023",
-                "categoryImg": "https://o.dlf.pt/dfpng/smallpng/542-5420229_avengers-iron-man-png-download-captain-america-shield.png"
+                "categoryImg": "../../../assets/images/New crystal hair removal.jpeg"
             },
             {
-                "categoryName": "WOMEN",
+                "categoryName": "TOYS",
                 "categoryDescription": "Spring 2023",
-                "categoryImg": "https://o.dlf.pt/dfpng/smallpng/542-5420229_avengers-iron-man-png-download-captain-america-shield.png"
+                "categoryImg": "../../../assets/images/doreemon.png"
             },
             {
-                "categoryName": "CHILD",
+                "categoryName": "Kitchen",
                 "categoryDescription": "Spring 2023",
-                "categoryImg": "https://o.dlf.pt/dfpng/smallpng/542-5420229_avengers-iron-man-png-download-captain-america-shield.png"
+                "categoryImg": "../../../assets/images/Kitchen Category.jpeg"
+            },
+            {
+                "categoryName": "HEALTH & BEAUTY",
+                "categoryDescription": "Spring 2023",
+                "categoryImg": "../../../assets/images/New crystal hair removal.jpeg"
+            },
+            {
+                "categoryName": "TOYS",
+                "categoryDescription": "Spring 2023",
+                "categoryImg": "../../../assets/images/doreemon.png"
+            },
+            {
+                "categoryName": "Kitchen",
+                "categoryDescription": "Spring 2023",
+                "categoryImg": "../../../assets/images/Kitchen Category.jpeg"
             }
         ]
     }

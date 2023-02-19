@@ -1,0 +1,98 @@
+<app-share-components enableComponent="app-nav"></app-share-components>
+<div class="product-page">
+
+    <p class="main-heading">Product Details</p>
+    <div class="product-parent">
+        <!-- <div class="third-container">
+        <div>
+            <app-share-components *ngIf="productFound" [data]="product"
+            enableComponent="product-component"></app-share-components>
+        </div>
+        <div *ngIf="!productFound">
+            <p>Product Not Found</p>
+        </div>
+        <button (click)="onSubmit()">Send Email</button>
+    </div> -->
+        <div class="img-container prd-img-container">
+            <div class="main-img">
+                <img src="../../../assets/images/Products/back stretcher .png" />
+            </div>
+            <div class="sm-imgs-container hidden-slider">
+                <div class="sm-imgs">
+                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
+                </div>
+                <div class="sm-imgs">
+                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
+                </div>
+                <div class="sm-imgs">
+                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
+                </div>
+                <div class="sm-imgs">
+                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
+                </div>
+                <div class="sm-imgs">
+                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
+                </div>
+                <div class="sm-imgs">
+                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
+                </div>
+
+            </div>
+        </div>
+        <div class="prd-img-container2">
+            <p class="item-name">Back Stratcher</p>
+            <p class="f-20">Men's Running Shoes Men's Slip-on Shoes Tennis Walking Casual Shoes Black Gym Breathable
+                Rubber Work Shoes fashin shoes</p>
+
+            <div class="star-container">
+                <mat-icon class="star-icon" *ngFor="let ratingId of [1,2,3,4,5]; index as i"> {{ i < 2 ? 'star'
+                        : 'star_border' }} </mat-icon>
+                        <p><span> | </span> 66 Ratings</p>
+
+            </div>
+            <p class="price">Rs. 250</p>
+
+            <p>Quantity</p>
+            <div class="qty-counter">
+                <button [disabled]="prdQty == 1" (click)="prdQty = prdQty -1"><mat-icon>remove</mat-icon></button>
+                <p>{{prdQty}}</p>
+                <!-- <button>+</button> -->
+                <button (click)="prdQty = prdQty +1"><mat-icon>add</mat-icon></button>
+            </div>
+            <button class="add-to-cart-btn">Add To Cart</button>
+        </div>
+        <div class="prd-container3">
+            <div class="delivery-detail">
+                <mat-icon>location_on</mat-icon>
+                <p>Delivery All Over Pakistan</p>
+            </div>
+            <div class="delivery-detail">
+                <mat-icon>monetization_on</mat-icon>
+                <p>Cash On Delivery Available</p>
+            </div>
+            <div class="delivery-detail">
+                <mat-icon>swap_horizontal_circle</mat-icon>
+                <p>7 Days Return</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommend-items">
+        <p class="recommend-items-p">People Who Viewed This Item Also Viewed</p>
+        <div *ngFor="let item of data" class="third-container">
+            <div>
+                <div class="cat-top">
+                    <!-- <p class="category-heading">{{item.category}}</p>
+                    <p (click)="openCategory(item)" class="see-more">See more...</p> -->
+                </div>
+                <div class="category-container scrollbar hidden-slider">
+                    <div style="margin: 0 5px 0 5px;" *ngFor="let item of item.data">
+                        <app-share-components [data]="item" enableComponent="single-component"></app-share-components>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<app-share-components enableComponent="footer-component"></app-share-components>

@@ -1,0 +1,35 @@
+[
+    {
+        "data": [
+            {
+                "location": "Online business, however, We are from Karachi Pakistan",
+                "contactNo": "+92-3482977323",
+                "eMailAddress": "abc@gmail.com",
+                "aboutCompany": "We believe in providing the best shopping experience to our customers, which is why we offer fast and reliable delivery, easy returns and hassle-free customer service. Our products are handpicked with quality and affordability in mind, so you can shop with confidence knowing that you're getting the best value for your money.",
+                "subscriptionMessage": "Don’t miss to subscribe to our new feeds, kindly fill the form below.",
+                "socialLinks": [
+                    {
+                        "socialLink": "https://facebook.com",
+                        "socialIcon": "fa fa-facebook"
+                    },
+                    {
+                        "socialLink": "https://facebook.com",
+                        "socialIcon": "fa fa-twitter"
+                    },
+                    {
+                        "socialLink": "https://instagram.com",
+                        "socialIcon": "fa fa-instagram"
+                    },
+                    {
+                        "socialLink": "https://google.com",
+                        "socialIcon": "fa fa-google"
+                    }
+                ],
+                "facebookLink": "",
+                "twitterLink": "",
+                "googleLink": "",
+                "instagramLink": ""
+            }
+        ]
+    }
+]

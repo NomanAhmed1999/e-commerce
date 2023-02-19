@@ -2,106 +2,129 @@
     {
         "data": [
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "ALL"
+                "productImg": "../../../assets/images/Products/Bubble Gun.png",
+                "productName": "Bubble Gun",
+                "productPrice": "2100Rs",
+                "itemCategory": "TOYS",
+                "id": 1
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "MEN"
+                "productImg": "../../../assets/images/Products/Duck Track set.png",
+                "productName": "Duck Track Set",
+                "productPrice": "2200Rs",
+                "itemCategory": "TOYS",
+                "id": 2
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "MEN"
+                "productImg": "../../../assets/images/Products/dont-buzz-the-wire.jpg",
+                "productName": "Buzz Electric Game",
+                "productPrice": "1500Rs",
+                "itemCategory": "TOYS",
+                "id": 3
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "WOMEN"
+                "productImg": "../../../assets/images/Products/Pucket Game in Pakistan.png",
+                "productName": "Pucket Game",
+                "productPrice": "2000Rs",
+                "itemCategory": "TOYS",
+                "id": 4
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "WOMEN"
+                "productImg": "../../../assets/images/Products/Domino Train 80 blocks.png",
+                "productName": "Domino Train 80 Blocks",
+                "productPrice": "3500Rs",
+                "itemCategory": "TOYS",
+                "id": 5
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "WOMEN"
+                "productImg": "../../../assets/images/Products/Hand Gesture control car in Pakistan.png",
+                "productName": "Hand Gesture Control Car",
+                "productPrice": "6000Rs",
+                "itemCategory": "TOYS",
+                "id": 6
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "KIDS"
+                "productImg": "../../../assets/images/Products/New Cristal Hair Removal.webp",
+                "productName": "New Cristal Hair Removal",
+                "productPrice": "2000Rs",
+                "itemCategory": "Health & Beauty",
+                "id": 7
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "KIDS"
+                "productImg": "../../../assets/images/Products/4 in 1 Hair styler.jpeg",
+                "productName": "4 in 1 Hair Styler",
+                "productPrice": "4000Rs",
+                "itemCategory": "Health & Beauty",
+                "id": 8
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "SHOPIECE"
+                "productImg": "../../../assets/images/Products/Storm Vegetable Cutter.png",
+                "productName": "Food Chopper",
+                "productPrice": "3000Rs",
+                "itemCategory": "Kitchen",
+                "id": 9
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "SHIRTS"
+                "productImg": "../../../assets/images/Products/back stretcher .png",
+                "productName": "Back Stretcher",
+                "productPrice": "2000Rs",
+                "itemCategory": "Health & Fitness",
+                "id": 10
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "JWELLERIES"
+                "productImg": "../../../assets/images/Products/LCD-Writing-Tablets.jpg",
+                "productName": "Writing Tablet",
+                "productPrice": "1200Rs",
+                "itemCategory": "TOYS",
+                "id": 11
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "TOYS"
+                "productImg": "../../../assets/images/Products/Electric Geyser.jpg",
+                "productName": "Electric Geyser",
+                "productPrice": "4500Rs",
+                "itemCategory": "Kitchen",
+                "id": 12
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
+                "productImg": "../../../assets/images/Products/5 in 1 chopper mandoline.webp",
                 "productName": "Check-Shirt",
                 "productPrice": "250Rs",
-                "itemCategory": "LAUNDARY"
+                "itemCategory": "LAUNDARY",
+                "id": 13
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "WATCHES"
+                "productImg": "../../../assets/images/Products/Toilet Matt.jpg",
+                "productName": "Matt",
+                "productPrice": "1300Rs",
+                "itemCategory": "Kitchen",
+                "id": 14
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "ASD"
+                "productImg": "../../../assets/images/Products/jewellery organizer.jpeg",
+                "productName": "Jewellery Organizer",
+                "productPrice": "3000Rs",
+                "itemCategory": "Jewllery",
+                "id": 15
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "CCCC"
+                "productImg": "../../../assets/images/Products/Baby electric Nail Trimmer.jpeg",
+                "productPrice": "1800Rs",
+                "itemCategory": "Health & Beauty",
+                "id": 16
             },
             {
-                "productImg": "https://dcassetcdn.com/design_img/1207315/506023/506023_6356765_1207315_1898ad8e_image.png",
-                "productName": "Check-Shirt",
-                "productPrice": "250Rs",
-                "itemCategory": "ZZZ"
+                "productImg": "../../../assets/images/Products/Crystal Diamond Rose Lamp.jpg",
+                "productName": "Crystal Diamond Rose Lamp",
+                "productPrice": "2500Rs",
+                "itemCategory": "Home",
+                "id": 17
+            },
+            {
+                "productImg": "../../../assets/images/Products/Hair Straightener Brush.webp",
+                "productName": "Hair Straightener Brush",
+                "productPrice": "2000Rs",
+                "itemCategory": "Beauty",
+                "id": 18
             }
         ]
     }

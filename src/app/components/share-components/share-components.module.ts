@@ -5,6 +5,8 @@ import { SliderComponent } from '../slider/slider.component';
 import { MainNavbarComponent } from '../main-navbar/main-navbar.component';
 import { CategoryCartComponent } from '../category-cart/category-cart.component';
 import { ProductComponent } from '../product/product.component';
+import { FooterComponent } from '../footer/footer.component';
+import { SingleProductComponent } from '../single-product/single-product.component';
 
 
 
@@ -14,7 +16,9 @@ import { ProductComponent } from '../product/product.component';
         SliderComponent,
         MainNavbarComponent,
         CategoryCartComponent,
-        ProductComponent
+        ProductComponent,
+        FooterComponent,
+        SingleProductComponent
     ],
     exports: [
         ShareComponentsComponent
@@ -23,7 +27,8 @@ import { ProductComponent } from '../product/product.component';
         SliderComponent,
         MainNavbarComponent,
         CategoryCartComponent,
-        ProductComponent
+        ProductComponent,
+        FooterComponent
     ],
     imports: [
         CommonModule

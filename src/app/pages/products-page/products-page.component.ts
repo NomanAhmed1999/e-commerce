@@ -12,6 +12,7 @@ export class ProductsPageComponent {
   productList: any = [];
   originalProductList: any = [];
   productData = [];
+  filteredproductList = [];
   @ViewChild(ProductComponent) child!: ProductComponent;
   
   constructor(public prdSvc: ProductsService){
@@ -24,38 +25,34 @@ export class ProductsPageComponent {
     }else{
       this.productCategories = this.prdSvc.getCategoriesData();
     }
-
     this.getAllProducts();
-
-
-
   }
 
   async getAllProducts(){
     let data = await this.prdSvc.getAllProducts();
-    console.log('data', data);
-    
     if(data && data.length > 0){
       this.productList = data;
     }
   }
 
-  changeTab(e: any){
-    console.log('e', e.tab.textLabel);
+  async changeTab(e: any){
     if(e.tab.textLabel == 'ALL'){
+      this.filteredproductList = [];
       this.productList = this.originalProductList;
       this.getAllProducts();
-      
     }else{
-      this.getAllProducts();
-      let filterProducts = this.productList.filter((prd: any) => {
-        return prd.itemCategory == e.tab.textLabel
-      });
-      this.productList = filterProducts;
+      // setTimeout(() => {
+        this.getAllProducts();
+        let filterProducts = await this.productList.filter((prd: any) => {
+          return prd.itemCategory == e.tab.textLabel
+        });
+        this.filteredproductList = filterProducts;
+      // }, 500);
     }
-    console.log('asa', ProductComponent);
     
       
   }
+
+  
 
 }

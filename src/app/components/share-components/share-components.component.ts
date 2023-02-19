@@ -10,5 +10,10 @@ export class ShareComponentsComponent {
   @Input() data: any;
 
 
+  ngOnInit(){
+    console.log('sharea', this.data);
+    
+  }
+
 
 }
