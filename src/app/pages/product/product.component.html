@@ -1,7 +1,7 @@
 <app-share-components enableComponent="app-nav"></app-share-components>
 <div class="product-page">
 
-    <p class="main-heading">Product Details</p>
+    <p class="main-heading">Product/{{product.itemCategory}}/{{product.productName}}</p>
     <div class="product-parent">
         <!-- <div class="third-container">
         <div>
@@ -15,42 +15,26 @@
     </div> -->
         <div class="img-container prd-img-container">
             <div class="main-img">
-                <img src="../../../assets/images/Products/back stretcher .png" />
+                <img [src]="product.productImg" />
             </div>
             <div class="sm-imgs-container hidden-slider">
-                <div class="sm-imgs">
-                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
-                </div>
-                <div class="sm-imgs">
-                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
-                </div>
-                <div class="sm-imgs">
-                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
-                </div>
-                <div class="sm-imgs">
-                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
-                </div>
-                <div class="sm-imgs">
-                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
-                </div>
-                <div class="sm-imgs">
-                    <img src="../../../assets/images/Products/Domino Train 80 blocks.png" />
+                <div *ngFor="let img of product.relatedImages" class="sm-imgs" (click)="showImg(img, true)">
+                    <img [src]="img" />
                 </div>
 
             </div>
         </div>
         <div class="prd-img-container2">
-            <p class="item-name">Back Stratcher</p>
-            <p class="f-20">Men's Running Shoes Men's Slip-on Shoes Tennis Walking Casual Shoes Black Gym Breathable
-                Rubber Work Shoes fashin shoes</p>
+            <p class="item-name">{{product.productName}}</p>
+            <p class="f-20">{{product.description}}</p>
 
             <div class="star-container">
-                <mat-icon class="star-icon" *ngFor="let ratingId of [1,2,3,4,5]; index as i"> {{ i < 2 ? 'star'
+                <mat-icon class="star-icon" *ngFor="let ratingId of [1,2,3,4,5]; index as i"> {{ i < product.ratings ? 'star'
                         : 'star_border' }} </mat-icon>
-                        <p><span> | </span> 66 Ratings</p>
+                        <p><span> | </span> {{product.ratingCount ? product.ratingCount : 0}} Ratings</p>
 
             </div>
-            <p class="price">Rs. 250</p>
+            <p class="price">Rs. {{product.productPrice}}</p>
 
             <p>Quantity</p>
             <div class="qty-counter">
@@ -59,7 +43,7 @@
                 <!-- <button>+</button> -->
                 <button (click)="prdQty = prdQty +1"><mat-icon>add</mat-icon></button>
             </div>
-            <button class="add-to-cart-btn">Add To Cart</button>
+            <button class="add-to-cart-btn" (click)="addToCart(product)">Add To Cart</button>
         </div>
         <div class="prd-container3">
             <div class="delivery-detail">
@@ -93,6 +77,7 @@
             </div>
         </div>
     </div>
+    <app-share-components (returnVal)="showImg('', $event)" [data]="showingImg" *ngIf="showFullImg" enableComponent="show-full-img"></app-share-components>
 
 </div>
 <app-share-components enableComponent="footer-component"></app-share-components>

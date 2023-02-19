@@ -16,7 +16,7 @@ export class ProductComponent {
   productFound: boolean = false;
   products: any = Products;
   originalProductsList: any = [];
-  product: any = [];
+  product: any = {};
   data: any = [];
   productCategories: any = [];
   form: any;
@@ -28,6 +28,8 @@ export class ProductComponent {
   isLoading: boolean = false; // disable the submit button if we're loading
   responseMessage: any; // the response message to show to the user
   rating: number = 3;
+  showFullImg: boolean = false;
+  showingImg: string = '';
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -65,9 +67,10 @@ export class ProductComponent {
 
   getFilterData() {
     let data = this.originalProductsList.filter((item: any) => item['id'] === this.productId);
-    console.log('data', data);
     if (data && data.length > 0) {
-      this.product = data;
+      this.product = data[0];
+      console.log('data', this.product);
+
     } else {
       this.productFound = false;
     }
@@ -119,12 +122,11 @@ export class ProductComponent {
       this.data[i] = nweData;
     });
     // this.data.forEach((e: any) => {
-      let filter = this.originalProductsList.forEach((prd: any) => {
-        // if (prd.itemCategory == e.category) {
-          this.data[0].data.push(prd);
-        // }
+    let filter = this.originalProductsList.forEach((prd: any) => {
+      // if (prd.itemCategory == e.category) {
+      this.data[0].data.push(prd);
+      // }
       // })
-      console.log('filterProducts', this.originalProductsList);
     });
   }
 
@@ -133,12 +135,43 @@ export class ProductComponent {
   }
 
 
-  showIcon(index:number) {
+  showIcon(index: number) {
     if (this.rating >= index + 1) {
       return 'star';
     } else {
       return 'star_border';
     }
+  }
+
+
+  showImg(img: string, e: any) {
+    this.showFullImg = e
+    this.showingImg = img;
+  }
+
+  addToCart(product: any) {
+    let saveToLocalStorage = {
+      productName: product.productName,
+      productId: product.productId,
+      productImg: product.productImg,
+      price: product.productPrice,
+      quantity: this.prdQty,
+    }
+    // let storedProduct: any = JSON.stringify(localStorage.getItem('prd-for-buy'));
+    let storedProduct: any = localStorage.getItem("prd-for-buy");
+    // console.log(storedProduct);
+    
+    if (storedProduct && storedProduct.length > 0) {
+      storedProduct = JSON.parse(storedProduct);
+      storedProduct.push(saveToLocalStorage);
+      localStorage.setItem('prd-for-buy', JSON.stringify(storedProduct));
+    } else {
+      let storedProduct = [];
+      storedProduct.push(saveToLocalStorage);
+      localStorage.setItem('prd-for-buy', JSON.stringify(storedProduct));
+    }
+    console.log(localStorage.getItem('prd-for-buy'));
+
   }
 
 

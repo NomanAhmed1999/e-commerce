@@ -16,7 +16,6 @@ export class ProductComponent {
 
 
   ngAfterViewInit(){
-    console.log('ngViewAfterInit', this.data);
   }
 
   openProduct(product: any){

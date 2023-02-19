@@ -9,6 +9,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { HttpClientModule } from "@angular/common/http";
 import { ReactiveFormsModule } from '@angular/forms';
 import { CartModule } from './pages/cart/cart.module';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CartModule } from './pages/cart/cart.module';
     MatTabsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    CartModule
+    CartModule,
+    MatIconModule,
   ],
   bootstrap: [AppComponent]
 })

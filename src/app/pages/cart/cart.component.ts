@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./cart.component.scss']
 })
 export class CartComponent {
+  products: any = [];
+
+
+  ngOnInit(){
+    this.getData();
+  }
+  
+  getData(){
+    this.products = localStorage.getItem('prd-for-buy');
+    if(this.products){
+      this.products = JSON.parse(this.products);
+    }
+  }
 
 }

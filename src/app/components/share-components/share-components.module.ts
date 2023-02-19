@@ -7,6 +7,8 @@ import { CategoryCartComponent } from '../category-cart/category-cart.component'
 import { ProductComponent } from '../product/product.component';
 import { FooterComponent } from '../footer/footer.component';
 import { SingleProductComponent } from '../single-product/single-product.component';
+import { ShowFullImgComponent } from '../show-full-img/show-full-img.component';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -18,7 +20,8 @@ import { SingleProductComponent } from '../single-product/single-product.compone
         CategoryCartComponent,
         ProductComponent,
         FooterComponent,
-        SingleProductComponent
+        SingleProductComponent,
+        ShowFullImgComponent
     ],
     exports: [
         ShareComponentsComponent
@@ -28,10 +31,12 @@ import { SingleProductComponent } from '../single-product/single-product.compone
         MainNavbarComponent,
         CategoryCartComponent,
         ProductComponent,
-        FooterComponent
+        FooterComponent,
+
     ],
     imports: [
-        CommonModule
+        CommonModule,
+        MatIconModule,
     ]
 })
 export class ShareComponentsModule { }

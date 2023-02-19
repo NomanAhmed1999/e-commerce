@@ -4,125 +4,129 @@
             {
                 "productImg": "../../../assets/images/Products/Bubble Gun.png",
                 "productName": "Bubble Gun",
-                "productPrice": "2100Rs",
+                "productPrice": "2100",
                 "itemCategory": "TOYS",
                 "id": 1
             },
             {
                 "productImg": "../../../assets/images/Products/Duck Track set.png",
                 "productName": "Duck Track Set",
-                "productPrice": "2200Rs",
+                "productPrice": "2200",
                 "itemCategory": "TOYS",
                 "id": 2
             },
             {
                 "productImg": "../../../assets/images/Products/dont-buzz-the-wire.jpg",
                 "productName": "Buzz Electric Game",
-                "productPrice": "1500Rs",
+                "productPrice": "1500",
                 "itemCategory": "TOYS",
                 "id": 3
             },
             {
                 "productImg": "../../../assets/images/Products/Pucket Game in Pakistan.png",
                 "productName": "Pucket Game",
-                "productPrice": "2000Rs",
+                "productPrice": "2000",
                 "itemCategory": "TOYS",
                 "id": 4
             },
             {
                 "productImg": "../../../assets/images/Products/Domino Train 80 blocks.png",
                 "productName": "Domino Train 80 Blocks",
-                "productPrice": "3500Rs",
+                "productPrice": "3500",
                 "itemCategory": "TOYS",
                 "id": 5
             },
             {
                 "productImg": "../../../assets/images/Products/Hand Gesture control car in Pakistan.png",
                 "productName": "Hand Gesture Control Car",
-                "productPrice": "6000Rs",
+                "productPrice": "6000",
                 "itemCategory": "TOYS",
-                "id": 6
+                "id": 6,
+                "description": "Men's Running Shoes Men's Slip-on Shoes Tennis Walking Casual Shoes Black Gym Breathable Rubber Work Shoes fashin shoes",
+                "ratings": 4,
+                "ratingCount": 45,
+                "relatedImages": ["../../../assets/images/Products/Hand Gesture control car in Pakistan.png", "../../../assets/images/Products/Hand Gesture control car in Pakistan.png", "../../../assets/images/Products/Hand Gesture control car in Pakistan.png", "../../../assets/images/Products/Hand Gesture control car in Pakistan.png", "../../../assets/images/Products/Hand Gesture control car in Pakistan.png"]
             },
             {
                 "productImg": "../../../assets/images/Products/New Cristal Hair Removal.webp",
                 "productName": "New Cristal Hair Removal",
-                "productPrice": "2000Rs",
+                "productPrice": "2000",
                 "itemCategory": "Health & Beauty",
                 "id": 7
             },
             {
                 "productImg": "../../../assets/images/Products/4 in 1 Hair styler.jpeg",
                 "productName": "4 in 1 Hair Styler",
-                "productPrice": "4000Rs",
+                "productPrice": "4000",
                 "itemCategory": "Health & Beauty",
                 "id": 8
             },
             {
                 "productImg": "../../../assets/images/Products/Storm Vegetable Cutter.png",
                 "productName": "Food Chopper",
-                "productPrice": "3000Rs",
+                "productPrice": "3000",
                 "itemCategory": "Kitchen",
                 "id": 9
             },
             {
                 "productImg": "../../../assets/images/Products/back stretcher .png",
                 "productName": "Back Stretcher",
-                "productPrice": "2000Rs",
+                "productPrice": "2000",
                 "itemCategory": "Health & Fitness",
                 "id": 10
             },
             {
                 "productImg": "../../../assets/images/Products/LCD-Writing-Tablets.jpg",
                 "productName": "Writing Tablet",
-                "productPrice": "1200Rs",
+                "productPrice": "1200",
                 "itemCategory": "TOYS",
                 "id": 11
             },
             {
                 "productImg": "../../../assets/images/Products/Electric Geyser.jpg",
                 "productName": "Electric Geyser",
-                "productPrice": "4500Rs",
+                "productPrice": "4500",
                 "itemCategory": "Kitchen",
                 "id": 12
             },
             {
                 "productImg": "../../../assets/images/Products/5 in 1 chopper mandoline.webp",
                 "productName": "Check-Shirt",
-                "productPrice": "250Rs",
+                "productPrice": "250",
                 "itemCategory": "LAUNDARY",
                 "id": 13
             },
             {
                 "productImg": "../../../assets/images/Products/Toilet Matt.jpg",
                 "productName": "Matt",
-                "productPrice": "1300Rs",
+                "productPrice": "1300",
                 "itemCategory": "Kitchen",
                 "id": 14
             },
             {
                 "productImg": "../../../assets/images/Products/jewellery organizer.jpeg",
                 "productName": "Jewellery Organizer",
-                "productPrice": "3000Rs",
+                "productPrice": "3000",
                 "itemCategory": "Jewllery",
                 "id": 15
             },
             {
                 "productImg": "../../../assets/images/Products/Baby electric Nail Trimmer.jpeg",
-                "productPrice": "1800Rs",
+                "productPrice": "1800",
                 "itemCategory": "Health & Beauty",
                 "id": 16
             },
             {
                 "productImg": "../../../assets/images/Products/Crystal Diamond Rose Lamp.jpg",
                 "productName": "Crystal Diamond Rose Lamp",
-                "productPrice": "2500Rs",
+                "productPrice": "2500",
                 "itemCategory": "Home",
                 "id": 17
             },
             {
                 "productImg": "../../../assets/images/Products/Hair Straightener Brush.webp",
                 "productName": "Hair Straightener Brush",
-                "productPrice": "2000Rs",
+                "productPrice": "2000",
                 "itemCategory": "Beauty",
                 "id": 18
             }

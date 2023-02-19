@@ -11,7 +11,6 @@ export class SingleProductComponent {
 
 
   constructor(public router: Router){
-    console.log(this.product);
     
   }
 

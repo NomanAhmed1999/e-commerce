@@ -15,7 +15,6 @@ export class FooterComponent {
 
   constructor(private router: Router) {
     this.originalFooterData = this.footerData[0].data[0];
-    console.log('footer', this.originalFooterData);
   }
 
   navigateTo(link: any) {

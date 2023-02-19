@@ -4,3 +4,4 @@
 <app-product [data]="data" *ngIf="enableComponent == 'product-component'"></app-product>
 <app-footer *ngIf="enableComponent == 'footer-component'"></app-footer>
 <single-product [product]="data" *ngIf="enableComponent == 'single-component'"></single-product>
+<show-full-img (imgClose)="returnToParent($event)" [img]="data" *ngIf="enableComponent == 'show-full-img'" ></show-full-img>

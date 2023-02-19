@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-share-components',
@@ -8,12 +8,13 @@ import { Component, Input } from '@angular/core';
 export class ShareComponentsComponent {
   @Input() enableComponent: String = '';
   @Input() data: any;
-
+  @Output() returnVal = new EventEmitter<any>()
 
   ngOnInit(){
-    console.log('sharea', this.data);
-    
   }
 
+  returnToParent(e: any){
+    this.returnVal.emit(e);
+  }
 
 }

@@ -16,7 +16,7 @@ import {MatIconModule} from '@angular/material/icon';
     ProductRoutingModule,
     ShareComponentsModule,
     ReactiveFormsModule,
-    MatIconModule
+    MatIconModule,
   ]
 })
 export class ProductModule { }
