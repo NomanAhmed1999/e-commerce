@@ -4,7 +4,7 @@
 
 <div class="cart-container">
 
-    <div class="small-container cart-page">
+    <div *ngIf="isProduct" class="small-container cart-page">
         <table>
             <tr>
                 <th>Product</th>
@@ -49,11 +49,13 @@
             </div>
             <div>
 
-                <button class="checkout-btn">Checkout</button>
+                <button mat-raised-button class="checkout-btn" (click)="checkout()">Checkout</button>
             </div>
         </div>
     </div>
-
+    <div class="no-product-container" *ngIf="!isProduct">
+        <p>You have no add any product in cart</p>
+    </div>
 
 
 

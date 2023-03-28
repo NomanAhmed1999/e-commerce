@@ -1,0 +1,90 @@
+.img-container {
+    width: 100%;
+    height: 100%;
+
+
+    .dialog-header {
+        display: flex;
+        flex-direction: row-reverse;
+        background: #ed6321;
+
+        .cross{
+            cursor: pointer;
+        }
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-left: 10px;
+
+    .form {
+        width: 200px;
+        // border: 1px solid greenyellow;
+    }
+}
+
+.err {
+    color: red;
+
+    &::after {
+        content: '*';
+        color: red;
+    }
+}
+
+.checkout-btn {
+    width: 200px;
+    background: #ed6321;
+    color: white;
+    border: 1px solid #00000000;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    &:hover {
+        background: white;
+        color: #ed6321;
+        border: 1px solid #ed6321;
+    }
+}
+
+.cancel-btn{
+    width: 200px;
+    background: white;
+    color:  #ed6321;
+    border: 1px solid #ed6321;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    &:hover {
+        background: #ed6321;
+        color:  white;
+        border: 1px solid white;
+    }
+}
+
+.disabled-btn{
+    width: 200px;
+    background: #e3dfdf;
+    color: #9d928d;
+    border: 1px solid #c9c6c5;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+  .form-contain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    .btns{
+        
+    }
+  }

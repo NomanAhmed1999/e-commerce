@@ -448,9 +448,9 @@
   }
   
   .total-price table {
-    border-top: 3px solid #ed6321;
     width: 100%;
     max-width: 400px;
+    border-top: 3px solid #ed6321;
   }
   
   td:last-child {
@@ -573,11 +573,15 @@
     width: 100%;
     background: #ed6321;
     color: white;
-    border: 1px solid #000000;
+    border: 1px solid #00000000;
 
     &:hover{
         background: white;
         color: #ed6321;
         border: 1px solid #ed6321;
     }
+  }
+
+  .no-product-container{
+    min-height: 100vh;
   }

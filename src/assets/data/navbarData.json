@@ -4,7 +4,7 @@
         "data": [
             {
                 "navLinkName": "Home",
-                "nameRoute": "/home",
+                "nameRoute": "/",
                 "hasIcon": false,
                 "iconName": ""
             },

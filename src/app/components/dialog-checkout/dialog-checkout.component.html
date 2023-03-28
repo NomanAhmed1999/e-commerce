@@ -1,0 +1,41 @@
+<div class="img-container">
+
+    <div class="dialog-header">
+        <mat-icon class="cross" (click)="closeModal()">clear</mat-icon>
+    </div>
+    <div class="form-contain">
+        <form class="form-container" [formGroup]="myForm">
+            <div class="form">
+                <mat-label
+                    [class]="myForm.get('name').invalid && (myForm.get('name').dirty || myForm.get('name').touched) ? 'err' : ''">Name</mat-label>
+                <input formControlName="name" matInput placeholder="Name" formControlName="name" required>
+            </div>
+            <div class="form">
+                <mat-label>Email</mat-label>
+                <input formControlName="email" placeholder="Your email">
+            </div>
+            <div class="form">
+                <mat-label
+                    [class]="myForm.get('contactNo').invalid && (myForm.get('contactNo').dirty || myForm.get('contactNo').touched) ? 'err' : ''">Contact
+                    Number</mat-label>
+                <input formControlName="contactNo" placeholder="Contact Number">
+            </div>
+            <div class="form">
+                <mat-label
+                    [class]="myForm.get('address').invalid && (myForm.get('address').dirty || myForm.get('address').touched) ? 'err' : ''">Full
+                    Address</mat-label>
+                <input formControlName="address" placeholder="Full Address">
+            </div>
+            <div class="form">
+                <mat-label>
+                    Message
+                    <textarea rows="1" formControlName="message" placeholder="Any message?"></textarea>
+                </mat-label>
+            </div>
+        </form>
+        <div class="btns">
+            <button [disabled]="myForm.invalid" mat-raised-button [class]="myForm.invalid ? 'disabled-btn' : 'checkout-btn'" (click)="onSubmit()">Send</button>
+            <button mat-raised-button class="cancel-btn" (click)="closeModal()">Cancel</button>
+        </div>
+
+    </div>

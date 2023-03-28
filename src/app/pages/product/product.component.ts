@@ -4,6 +4,8 @@ import * as Products from '../../../assets/data/product-data.json';
 import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { ProductsService } from 'src/app/services/products.service';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogImgComponent } from 'src/app/components/dialog-img/dialog-img.component';
 
 @Component({
   selector: 'app-product',
@@ -36,7 +38,8 @@ export class ProductComponent {
     private http: HttpClient,
     private formBuilder: FormBuilder,
     private prdSvc: ProductsService,
-    private router: Router
+    private router: Router,
+    public dialog: MatDialog
   ) {
 
   }
@@ -145,8 +148,14 @@ export class ProductComponent {
 
 
   showImg(img: string, e: any) {
-    this.showFullImg = e
-    this.showingImg = img;
+    const dialogRef = this.dialog.open(DialogImgComponent, {
+      // width: '100%',
+      // height: '90vh'
+      data: {image: img},
+    });
+    // dialogRef.afterClosed().subscribe(result => {
+    //   console.log(`Dialog result: ${result}`);
+    // });
   }
 
   addToCart(product: any) {
