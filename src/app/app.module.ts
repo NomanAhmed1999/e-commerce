@@ -15,13 +15,14 @@ import { DialogCheckoutComponent } from './components/dialog-checkout/dialog-che
 import { MatCommonModule } from '@angular/material/core';
 import {MatNativeDateModule} from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageNotFoundComponent,
     DialogImgComponent,
-    DialogCheckoutComponent,
+    DialogCheckoutComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +39,7 @@ import { MatInputModule } from '@angular/material/input';
     MatNativeDateModule,
     ReactiveFormsModule,
     MatInputModule,
+    FontAwesomeModule
   ],
   bootstrap: [AppComponent]
 })

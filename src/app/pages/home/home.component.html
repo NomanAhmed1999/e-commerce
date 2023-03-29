@@ -1,9 +1,79 @@
-<app-share-components enableComponent="app-nav"></app-share-components>
-<app-share-components enableComponent="app-slider"></app-share-components>
+<!-- Header Starts -->
+
+<div class="header">
+    <div class="logo">
+        <h1><a href="#">SHUKARR</a></h1>
+    </div>
+    <div class="search">
+        <!-- <form>
+            <input type="text" placeholder="Search Here">
+        </form> -->
+    </div>
+    <div class="menus">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Play</a>
+        <a href="#">Cart</a>
+        <a (click)="linksToggle()">Menus</a>
+    </div>
+</div>
+<!-- <div *ngIf="showMe" class="links">
+    <a href="#">Mens & Womens Accessories</a>
+    <a href="#">Womens Wear</a>
+    <a href="#">Mens Wear</a>
+    <a href="#">Kids Wear</a>
+    <a href="#">Toys</a>
+</div> -->
+
+<!-- Header Ends -->
+
+
+<!-- Carousel Starts -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../../assets/images/slider1.png" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>We Have Best Quality T-shirts</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../../assets/images/slider2.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>50% Off - Bayrama Ozel</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../../assets/images/slider3.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mens Accessories</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Carousel Ends -->
+
+<!-- <app-share-components enableComponent="app-nav"></app-share-components>
+<app-share-components enableComponent="app-slider"></app-share-components> -->
 <!-- <div class="second-container">
     <app-share-components enableComponent="category-component"></app-share-components>
 </div> -->
-<h2>PRODUCTS OVERVIEW danial</h2>
+<h2>PRODUCTS OVERVIEW</h2>
 <!-- <div class="slide-container swiper">
     <div class="slide-content">
         <div class="card-wrapper swiper-wrapper">

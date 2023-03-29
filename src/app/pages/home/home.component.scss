@@ -1,3 +1,93 @@
+// Header CSS Start
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #12122A;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 0px 25px;
+  height: 80px;
+  align-items: center;
+}
+
+.header h1 a {
+  color: #ED6321;
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.search input {
+  height: 35px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.menus {
+  text-align: right;
+}
+
+.menus a {
+  color: #ED6321;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 10px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.menus a:hover {
+  color: white;
+}
+
+// .links {
+//   background-color: #007bff;
+//   text-align: center;
+// }
+
+// .links a {
+//   color: white;
+//   text-decoration: none;
+//   display: block;
+//   padding: 15px;
+//   font-size: 16px;
+// }
+
+@media only screen and (max-width:600px) {
+  .header {
+    grid-template-columns: auto auto;
+    padding: 10px 5px;
+    height: auto;
+  }
+
+  .search {
+    grid-column: 2;
+    grid-row: 2;
+    grid-column: 1/span 2;
+  }
+
+  .manus a {
+    padding: 0 2px;
+  }
+}
+// Header CSS End
+
+// Carousel CSS Start
+.carousel img {
+  height: 60vh;
+}
+// Carousel CSS Start
+
 .second-container {
     width: 100%;
     height: 80vh;

@@ -16,6 +16,7 @@ export class HomeComponent implements AfterViewInit {
   productCategories: any = [];
   swiper: any;
   data: any = [];
+  showMe:boolean= false;
   // @ViewChild('swiperContainer') swiperContainer: | any;
 
 
@@ -128,6 +129,10 @@ export class HomeComponent implements AfterViewInit {
       console.log((Object.entries(obj)));
       
     }
+  }
+
+  linksToggle() {
+    this.showMe=!this.showMe
   }
 
 
