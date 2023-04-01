@@ -85,8 +85,32 @@
 // Carousel CSS Start
 .carousel img {
   height: 60vh;
+  opacity: 0.8;
+}
+
+.carousel-caption {
+  color: black;
+  font-weight: 500 !important;
+  display: flex;
+  justify-content: center;
+  height: 50%;
 }
 // Carousel CSS Start
+
+
+// Product Cards CSS Start
+
+// Product Cards CSS End
+
+
+
+
+
+
+
+
+
+
 
 .second-container {
     width: 100%;
